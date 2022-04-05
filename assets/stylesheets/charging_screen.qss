@@ -1,0 +1,41 @@
+#stopChargingButtonImage {
+    background-image: url(:/assets/images/stop_charging_button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#stopChargingButtonLabel {
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli Black";
+    font-size: 26px;
+    font-weight: 900;
+    color: #d0021b;
+    line-height: normal;
+}
+
+#percentageLabel {
+    qproperty-alignment: 'AlignVCenter | AlignRight';
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 32px;
+    color: #119734;
+    line-height:1px;
+}
+
+#carAndStationImage {
+    background-image : url(:/assets/images/<project_type>_<charger_code>_preparing_and_charging_car_and_station.png);
+    background-repeat:no-repeat;
+    background-position:center bottom;
+}
+
+#powerLabel, #energyLabel, #timeLabel, #remainingTimeLabel, #powerValue, #energyValue, #timeValue, #remainingTimeValue {
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli SemiBold";
+    font-size: 20px;
+    color: #58595b;
+    line-height:1px;
+}
+
+#powerLabel, #energyLabel, #timeLabel, #remainingTimeLabel {
+    font-weight: bold;
+}

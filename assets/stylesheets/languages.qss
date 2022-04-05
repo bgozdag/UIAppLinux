@@ -1,0 +1,215 @@
+QLabel {
+    font-family: "Muli SemiBold";
+    font-size: 20px;
+    color : #58595b;
+}
+
+#languageTitle {
+    font-size: 24px;
+}
+
+#english_button, #turkish_button, #german_button,
+#chinese_button, #russian_button, #portuguese_button,
+#french_button, #italian_button, #spanish_button, #hebrew_button, #czech_button,
+#danish_button, #german_button, #spanish_button, #finnish_button, #french_button,
+#hungarian_button, #italian_button, #norwegian_button, #polish_button, #romanian_button,
+#slovakian_button, #swedish_button {
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#english_small_button, #turkish_small_button, #german_small_button,
+#chinese_small_button, #russian_small_button, #portuguese_small_button,
+#french_small_button, #italian_small_button, #spanish_small_button, #hebrew_small_button,
+#czech_small_button, #danish_small_button, #german_small_button, #spanish_small_button,
+#finnish_small_button, #french_small_button, #hungarian_small_button, #italian_small_button,
+#norwegian_small_button, #polish_small_button, #romanian_small_button, #slovakian_small_button,
+#swedish_small_button {
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#english_button {
+    background-image : url(:/assets/images/eng_flag.png);
+}
+
+#english_small_button {
+    background-image : url(:/assets/images/eng_flag_small.png);
+}
+
+#turkish_button {
+    background-image : url(:/assets/images/turkey_flag.png);
+}
+
+#turkish_small_button {
+    background-image : url(:/assets/images/turkey_flag_small.png);
+}
+
+#german_button {
+    background-image : url(:/assets/images/german_flag.png);
+}
+
+#german_small_button {
+    background-image : url(:/assets/images/german_small_flag.png);
+}
+
+#chinese_button {
+    background-image : url(:/assets/images/china_flag.png);
+}
+
+#chinese_small_button {
+    background-image : url(:/assets/images/china_small_flag.png);
+}
+
+#russian_button {
+    background-image : url(:/assets/images/russian_flag.png);
+}
+
+#russian_small_button {
+    background-image : url(:/assets/images/russian_small_flag.png);
+}
+
+#portuguese_button {
+    background-image : url(:/assets/images/portuguese_flag.png);
+}
+
+#portuguese_small_button {
+    background-image : url(:/assets/images/portuguese_small_flag.png);
+}
+
+#french_button {
+    background-image : url(:/assets/images/france_flag.png);
+}
+
+#french_small_button {
+    background-image : url(:/assets/images/france_small_flag.png);
+}
+
+#italian_button {
+    background-image : url(:/assets/images/italy_flag.png);
+}
+
+#italian_small_button {
+    background-image : url(:/assets/images/italy_small_flag.png);
+}
+
+#spanish_button {
+    background-image : url(:/assets/images/spain_flag.png);
+}
+
+#spanish_small_button {
+    background-image : url(:/assets/images/spain_small_flag.png);
+}
+
+#hebrew_button {
+    background-image : url(:/assets/images/israel_flag.png);
+}
+
+#hebrew_small_button {
+    background-image : url(:/assets/images/israel_flag_small.png);
+}
+
+#german_button {
+    background-image : url(:/assets/images/german_flag.png);
+}
+
+#german_small_button {
+    background-image : url(:/assets/images/german_flag_small.png);
+}
+
+#czech_button {
+    background-image : url(:/assets/images/czech_flag.png);
+}
+
+#czech_small_button {
+    background-image : url(:/assets/images/czech_flag_small.png);
+}
+
+#danish_button {
+    background-image : url(:/assets/images/danish_flag.png);
+}
+
+#danish_small_button {
+    background-image : url(:/assets/images/danish_flag_small.png);
+}
+
+#spanish_button {
+    background-image : url(:/assets/images/spanish_flag.png);
+}
+
+#spanish_small_button {
+    background-image : url(:/assets/images/spanish_flag_small.png);
+}
+
+#finnish_button {
+    background-image : url(:/assets/images/finnish_flag.png);
+}
+
+#finnish_small_button {
+    background-image : url(:/assets/images/finnish_flag_small.png);
+}
+
+#french_button {
+    background-image : url(:/assets/images/french_flag.png);
+}
+
+#french_small_button {
+    background-image : url(:/assets/images/french_flag_small.png);
+}
+
+#hungarian_button {
+    background-image : url(:/assets/images/hungarian_flag.png);
+}
+
+#hungarian_small_button {
+    background-image : url(:/assets/images/hungarian_flag_small.png);
+}
+
+#italian_button {
+    background-image : url(:/assets/images/italian_flag.png);
+}
+
+#italian_small_button {
+    background-image : url(:/assets/images/italian_flag_small.png);
+}
+
+#norwegian_button {
+    background-image : url(:/assets/images/norwegian_flag.png);
+}
+
+#norwegian_small_button {
+    background-image : url(:/assets/images/norwegian_flag_small.png);
+}
+
+#polish_button {
+    background-image : url(:/assets/images/polish_flag.png);
+}
+
+#polish_small_button {
+    background-image : url(:/assets/images/polish_flag_small.png);
+}
+
+#romanian_button {
+    background-image : url(:/assets/images/romanian_flag.png);
+}
+
+#romanian_small_button {
+    background-image : url(:/assets/images/romanian_flag_small.png);
+}
+
+#slovakian_button {
+    background-image : url(:/assets/images/slovakian_flag.png);
+}
+
+#slovakian_small_button {
+    background-image : url(:/assets/images/slovakian_flag_small.png);
+}
+
+#swedish_button {
+    background-image : url(:/assets/images/swedish_flag.png);
+}
+
+#swedish_small_button {
+    background-image : url(:/assets/images/swedish_flag_small.png);
+}
+

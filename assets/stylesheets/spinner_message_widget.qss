@@ -1,0 +1,6 @@
+QLabel {
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli";
+    font-size: 24px;
+    color:#58595b;
+}

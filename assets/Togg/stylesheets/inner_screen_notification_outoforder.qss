@@ -1,0 +1,19 @@
+#topNotification {
+    background-image: url(:/assets/Togg/images/inner_notification_background_out_of_order.png);
+}
+
+.QLabel {
+    font-size: 23px;
+    color: white;
+    qproperty-alignment: AlignCenter;
+    font-family: Muli SemiBold;
+}
+
+#topNotificationHeader {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#topNotificationDetails {
+    font-size: 23px;
+}

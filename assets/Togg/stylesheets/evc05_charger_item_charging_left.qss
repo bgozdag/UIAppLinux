@@ -1,0 +1,88 @@
+#chargerItemWidget {
+    background-image: url(:/assets/Togg/images/<charger_code>_left_bg_active.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#chargerItemWidget:hover {
+    background-image: url(:/assets/Togg/images/<charger_code>_left_bg_selected.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#socketIcon {
+    background-image: url(:/assets/Togg/images/<project_type>_<charger_code>_socket.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#connectorId, #connectorPower, #connectorType {
+    qproperty-alignment: AlignLeft;
+    color: white;
+}
+
+#connectorId{
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 64px;
+}
+
+#connectorPower {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#connectorType {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#energyLabel, #powerLabel {
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 18px;
+    color: #58595b;
+}
+
+#energyValue, #powerValue {
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli";
+    font-size: 18px;
+    color: #58595b;
+}
+
+#progressLabel {
+    qproperty-alignment: AlignCenter;
+    text-align: center;
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 32px;
+    color: #666666;
+}
+
+#reservationOrFaultedWidget {
+    background-color : rgba(0, 0, 0, 0.6);
+    border-radius : 15%;
+}
+
+#chargerItemNotificationIconAndLabelWidget {
+    background-color : white;
+    border : 1px solid white;	
+    border-radius : 15%;
+}
+
+#chargerItemNotificationIconWidget {
+    background-image: url(:/assets/Togg/images/reserved.png);
+    background-repeat : no-repeat;
+    background-position : left;
+}
+
+#reservationOrFaultedLabel {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 20px;
+    color: #58595b;
+}

@@ -1,0 +1,24 @@
+#errorIcon {
+    background-image : url(":/assets/Togg/images/caution_red.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header {
+    color : #58595b;
+    font-family: 'Muli SemiBold';
+    font-weight: bold;
+    font-size : 28px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+#message {
+    color : #58595b;
+    font-family: 'Muli SemiBold';
+    font-size : 20px;
+    qproperty-alignment: AlignLeft;
+    margin-left: 100px;
+    margin-right: 80px;
+    line-height: 16px;
+}

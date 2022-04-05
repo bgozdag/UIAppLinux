@@ -1,0 +1,11 @@
+#errorIcon {
+    background-image : url(:/assets/Togg/images/caution.png);
+    background-repeat : no-repeat;
+    background-position:center;
+}
+
+#errorText {
+    color : #58595b;
+    font-family: 'Muli SemiBold';
+    font-size : 28px;
+}

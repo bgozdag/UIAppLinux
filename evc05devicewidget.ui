@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Evc05DeviceWidget</class>
+ <widget class="QWidget" name="Evc05DeviceWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>181</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#evc05DeviceImage {
+    border-image: url(:/assets/images/evc-05-device-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="evc05DeviceImage" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>181</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

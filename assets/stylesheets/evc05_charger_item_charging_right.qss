@@ -1,0 +1,16 @@
+#chargerItemWidget {
+    background-image: url(:/assets/images/<charger_code>_right_bg_active.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#chargerItemWidget:hover {
+    background-image: url(:/assets/images/<charger_code>_right_bg_selected.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#connectorId, #connectorPower, #connectorType {
+    qproperty-alignment: AlignRight;
+    color: white;
+}

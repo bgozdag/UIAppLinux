@@ -1,0 +1,26 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 9
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 2
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 1
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    . \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/x86_64-arago-linux/usr/arm-none-linux-gnueabihf/include/c++/9.2.1 \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/x86_64-arago-linux/usr/arm-none-linux-gnueabihf/include/c++/9.2.1/arm-none-linux-gnueabihf \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/x86_64-arago-linux/usr/arm-none-linux-gnueabihf/include/c++/9.2.1/backward \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/gcc/arm-none-linux-gnueabihf/9.2.1/include-fixed \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/x86_64-arago-linux/usr/arm-none-linux-gnueabihf/include \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/armv7at2hf-neon-linux-gnueabi/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/gcc/arm-none-linux-gnueabihf/9.2.1 \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/x86_64-arago-linux/usr/lib/gcc \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/x86_64-arago-linux/usr/arm-none-linux-gnueabihf/lib \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/armv7at2hf-neon-linux-gnueabi/lib/arm-none-linux-gnueabihf/9.2.1 \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/armv7at2hf-neon-linux-gnueabi/lib \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/armv7at2hf-neon-linux-gnueabi/usr/lib/arm-none-linux-gnueabihf/9.2.1 \
+    /home/bugrao/ti-processor-sdk-linux-am437x-evm-07.03.00.005/linux-devkit/sysroots/armv7at2hf-neon-linux-gnueabi/usr/lib

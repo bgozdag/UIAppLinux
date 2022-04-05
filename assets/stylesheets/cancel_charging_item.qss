@@ -1,0 +1,28 @@
+#cancelChargingButtonImage {
+    background-image: url(:/assets/images/cancel_charging_button.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#cancelChargingButtonLabel {
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli";
+    font-size: 26px;
+    font-weight: bold;
+    color: #58595b;
+    line-height: normal;
+}
+
+#cancelChargingButtonImage:hover, #cancelChargingButtonLabel:hover {
+    background-image: url(:/assets/images/cancel_charging_button_active.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli";
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffab01;
+    line-height: normal;
+}
+

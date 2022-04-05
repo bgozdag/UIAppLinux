@@ -1,0 +1,18 @@
+#topNotification {
+    background-image: url(:/assets/images/inner_notification_background_reserved.png);
+}
+
+.QLabel {
+    color: black;
+    qproperty-alignment: AlignCenter;
+    font-family: Muli SemiBold;
+}
+
+#topNotificationHeader {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#topNotificationDetails {
+    font-size: 23px;
+}

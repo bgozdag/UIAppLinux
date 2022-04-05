@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PreparingForChargingScreen</class>
+ <widget class="QWidget" name="PreparingForChargingScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="chargingLabel">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>435</y>
+     <width>631</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Şarj başlatılıyor
+Lütfen bekleyiniz...</string>
+   </property>
+  </widget>
+  <widget class="SpinnerWidget" name="progressSpinnerWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>625</x>
+     <y>540</y>
+     <width>161</width>
+     <height>131</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="carAndStationImage" native="true">
+   <property name="geometry">
+    <rect>
+     <x>387</x>
+     <y>63</y>
+     <width>637</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SpinnerWidget</class>
+   <extends>QWidget</extends>
+   <header>spinnerwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

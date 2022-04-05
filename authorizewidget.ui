@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AuthorizeWidget</class>
+ <widget class="QWidget" name="AuthorizeWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>314</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#qrIcon {
+	background-image:url(:/assets/images/qr.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#rfidIcon {
+	background-image: url(:/assets/images/handcard.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#rfidText, #qrText {
+	qproperty-alignment: AlignCenter;
+	font-family: &quot;Muli Semibold&quot;;
+	font-size: 24px;
+}
+
+#qrText, #rfidText {
+	qproperty-alignment: 'AlignTop | AlignHCenter';
+}
+
+#orText {
+	font-family: &quot;Muli Semibold&quot;;
+	font-size: 36px;
+	qproperty-alignment: AlignTop;
+	margin-top: 100px;
+}</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetFixedSize</enum>
+   </property>
+   <item>
+    <widget class="QWidget" name="rfidContainer" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QWidget" name="rfidIcon" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>242</width>
+          <height>243</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="rfidText">
+        <property name="text">
+         <string>Placeholder</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignHCenter|Qt::AlignTop</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="orText">
+     <property name="text">
+      <string>OR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignTop</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="qrContainer" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="qrIcon" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>242</width>
+          <height>243</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="qrText">
+        <property name="text">
+         <string>Placeholder</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignHCenter|Qt::AlignTop</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,67 @@
+#chargerItemWidget {
+    background-image: url(:/assets/images/<charger_code>_interface_background_passive.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#chargerItemHoverWidget {
+    background-image: url(:/assets/images/<charger_code>_interface_background_selected.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#plugIcon {
+    background-image: url(:/assets/images/<charger_code>_plug.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#socketIcon {
+    background-image: url(:/assets/images/<project_type>_<charger_code>_socket.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#connectorId, #connectorPower, #connectorType {
+    font-family: "Muli";
+    font-style: bold;
+    text-align: center;
+    qproperty-alignment: AlignCenter;
+    color: white;
+}
+
+#connectorId {
+    font-family: "Muli";
+    font-size: 72px;
+}
+
+#connectorPower, #connectorType {
+    font-family: "Muli";
+    font-size: 28px;
+}
+
+#reservationOrFaultedGrayBackgroundWidget {
+    background-color : rgba(0, 0, 0, 0.3);
+    border-radius : 10%;
+}
+
+#chargerItemNotificationIconAndLabelWidget {
+    background-image: url(:/assets/images/<charger_code>_reservation_or_faulted_background.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#chargerItemNotificationIconWidget {
+    background-image: url(:/assets/images/reserved.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#reservationOrFaultedLabel {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 20px;
+    color: #58595b;
+    text-align: center;
+    qproperty-alignment: AlignCenter;
+}

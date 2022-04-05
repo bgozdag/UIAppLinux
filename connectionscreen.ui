@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConnectionScreen</class>
+ <widget class="QWidget" name="ConnectionScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="connectionLabel">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>445</y>
+     <width>631</width>
+     <height>105</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Connect the CCS 
+charging cable to your car</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignHCenter|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="carAndStationImage" native="true">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>80</y>
+     <width>681</width>
+     <height>319</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="schukoCableConnectionWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>435</x>
+     <y>85</y>
+     <width>589</width>
+     <height>620</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="schukoCableConnection1Widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>589</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="schukoCableConnection1Label">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>0</y>
+       <width>325</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="schukoCableConnection3Widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>589</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="schukoCableConnection3Label">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>0</y>
+       <width>325</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="schukoCableConnection2Widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>589</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="schukoCableConnection2Label">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>0</y>
+       <width>325</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="ClickableQWidget" name="continueChargingButton" native="true">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>575</y>
+     <width>355</width>
+     <height>85</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="continueChargingButtonImage" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>355</width>
+      <height>85</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="continueChargingButtonLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>355</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Continue</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ClickableQWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">clickableqwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

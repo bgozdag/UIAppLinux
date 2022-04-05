@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EmergencyButtonDialogWidget</class>
+ <widget class="QWidget" name="EmergencyButtonDialogWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#icon {
+	background-image: url(:/assets/images/caution_red.png);
+	background-repeat : no-repeat;
+	background-position:center;
+}
+
+
+#header {
+	qproperty-alignment: AlignCenter;
+	font-family: &quot;Muli Semibold&quot;;
+	font-size: 28px;
+}
+
+#message {
+	qproperty-alignment: AlignCenter;
+	font-family: &quot;Muli Semibold&quot;;
+	font-size: 20px;
+}</string>
+  </property>
+  <widget class="QWidget" name="container" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="errorAndWarningContainer_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="icon" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>180</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="header">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="message">
+      <property name="text">
+       <string>PLaceHolder</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

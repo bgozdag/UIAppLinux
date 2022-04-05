@@ -1,0 +1,11 @@
+QProgressBar {
+    border: <border_thickness>px solid #fa6705;
+    border-radius: 5px;
+}
+
+QProgressBar::chunk {
+    background-color : #fa6705;
+    width: <boot_step_width>px;
+    margin: <margin_between_boot_steps>px;
+}
+

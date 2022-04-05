@@ -1,0 +1,59 @@
+#chargerItemNotificationIconWidget {
+    background-image: url(:/assets/Togg/images/outof-order.png);
+    background-repeat : no-repeat;
+    background-position : left;
+}
+
+#chargerItemWidget {
+    background-image: url(:/assets/Togg/images/inactive_left_bg.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#chargerItemWidget:hover {
+    background-image: url(:/assets/Togg/images/<charger_code>_left_bg_selected.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#socketIcon {
+    background-image: url(:/assets/Togg/images/<charger_code>_socket_big.png);
+    background-repeat : no-repeat;
+    background-position : center;
+}
+
+#connectorId, #connectorPower, #connectorType {
+    qproperty-alignment: AlignLeft;
+    color: white;
+}
+
+#connectorId{
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 64px;
+}
+
+#connectorPower {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#connectorType {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#chargerItemNotificationIconAndLabelWidget {
+    background-color : white;
+    border : 1px solid white;	
+    border-radius : 15%;
+}
+
+#reservationOrFaultedLabel {
+    font-family: "Muli";
+    font-weight: bold;
+    font-size: 20px;
+    color: #58595b;
+}

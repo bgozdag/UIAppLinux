@@ -1,0 +1,68 @@
+#connectionLabel {
+    font-family: "Muli SemiBold";
+    font-size: 28px;
+    color: #58595b;
+    line-height: 1px;
+}
+
+#carAndStationImage {
+    background-image: url(:/assets/images/<project_type>_<charger_code>_connection_car_and_station.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#schukoCableConnection1Widget {
+    background-image: url(:/assets/images/schuko-cable-connection-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#schukoCableConnection2Widget {
+    background-image: url(:/assets/images/schuko-cable-connection-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#schukoCableConnection3Widget {
+    background-image: url(:/assets/images/schuko-cable-connection-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#schukoCableConnection1Label, #schukoCableConnection2Label, #schukoCableConnection3Label {
+    qproperty-alignment: AlignLeft;
+    qproperty-alignment: AlignVCenter;
+    font-family: "Muli SemiBold";
+    font-size: 25px;
+    color: #58595b;
+    line-height: 1px;
+}
+
+#continueChargingButtonImage {
+    background-image: url(:/assets/images/continue_charging_button.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#continueChargingButtonLabel {
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli";
+    font-size: 26px;
+    font-weight: bold;
+    color: #58595b;
+    line-height: normal;
+}
+
+#continueChargingButtonImage:hover, #continueChargingButtonLabel:hover {
+    background-image: url(:/assets/images/continue_charging_button_active.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli";
+    font-size: 26px;
+    font-weight: bold;
+    color: #3d904b;
+    line-height: normal;
+}
+

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChargingScreen</class>
+ <widget class="QWidget" name="ChargingScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Ubuntu</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="percentageLabel">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>445</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>%30</string>
+   </property>
+  </widget>
+  <widget class="ClickableQWidget" name="stopChargingButton" native="true">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>590</y>
+     <width>470</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="stopChargingButtonImage" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>466</width>
+      <height>74</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="stopChargingButtonLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>7</y>
+      <width>450</width>
+      <height>58</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Şarjı Durdur</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="ProgressBarWidget" name="chargeProgressBar" native="true">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>450</y>
+     <width>541</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="infoLabelWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>495</y>
+     <width>551</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="spacing">
+     <number>6</number>
+    </property>
+    <item row="0" column="3">
+     <widget class="Line" name="energyDurationSeparator">
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="remainingTimeLabel">
+        <property name="text">
+         <string>Kalan Süre</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="remainingTimeValue">
+        <property name="text">
+         <string>2 dk</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="energyLabel">
+        <property name="text">
+         <string>Enerji</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="energyValue">
+        <property name="text">
+         <string>10 kWh</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="powerLabel">
+        <property name="text">
+         <string>Güç</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="powerValue">
+        <property name="text">
+         <string>68 kW</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="4">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="timeLabel">
+        <property name="text">
+         <string>Süre</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="timeValue">
+        <property name="text">
+         <string>10 dk</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="Line" name="powerEnergySeparator">
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="Line" name="durationRemainingSeparator">
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="carAndStationImage" native="true">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>74</y>
+     <width>731</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ProgressBarWidget</class>
+   <extends>QWidget</extends>
+   <header>progressbarwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ClickableQWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">clickableqwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

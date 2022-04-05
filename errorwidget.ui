@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ErrorWidget</class>
+ <widget class="QWidget" name="ErrorWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#errorIcon {
+	background-image: url(:/assets/images/caution.png);
+	background-repeat : no-repeat;
+	background-position:center;
+}
+
+#errorText {
+	qproperty-alignment: AlignCenter;
+	font-family: &quot;Muli Semibold&quot;;
+	font-size: 24px;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="errorContainer" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>750</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="errorAndWarningContainer_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="errorIcon" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>242</width>
+        <height>243</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="errorText">
+      <property name="text">
+       <string>PLaceHolder</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

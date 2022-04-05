@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AuthScreen</class>
+ <widget class="QWidget" name="AuthScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>770</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="ClickableQWidget" name="cancelChargingButton" native="true">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>585</y>
+     <width>470</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="cancelChargingButtonImage" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>470</width>
+      <height>80</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cancelChargingButtonLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>470</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cancel Charging Process</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ClickableQWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">clickableqwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

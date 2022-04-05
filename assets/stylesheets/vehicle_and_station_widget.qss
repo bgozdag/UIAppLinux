@@ -1,0 +1,5 @@
+#VehicleAndStation {
+    background-image: url(:/assets/images/<project_type>_<charger_code>_disconnection_and_station_car_in_appreciate.png);
+    background-repeat:no-repeat;
+    background-position:right;
+}

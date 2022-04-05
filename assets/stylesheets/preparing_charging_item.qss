@@ -1,0 +1,19 @@
+#progressImage {
+    background-image:url(:/assets/images/<charger_code>_spinner.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#chargingLabel {
+    qproperty-alignment: AlignCenter;
+    font-family: "Muli SemiBold";
+    font-size: 28px;
+    color: #58595b;
+    line-height:1px;
+}
+
+#carAndStationImage {
+    background-image : url(:/assets/images/<project_type>_<charger_code>_preparing_and_charging_car_and_station.png);
+    background-repeat:no-repeat;
+    background-position:center bottom;
+}
