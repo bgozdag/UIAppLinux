@@ -20,7 +20,7 @@ public:
     void addToQueue(std::string);
 
 private:
-    static const int BUFFER_SIZE = 4096;
+    static const int BUFFER_SIZE = 8192;
     char const* id = "UIVisual";
     char data[BUFFER_SIZE];
     std::vector<std::string> outgoingMessageQueue;
