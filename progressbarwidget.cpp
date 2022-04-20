@@ -37,3 +37,8 @@ void ProgressBarWidget::setGeometry(const QRect & rect)
     QQuickWidget::setGeometry(rect);
     setSize(height(), width());
 }
+
+void ProgressBarWidget::setSourceUrl(QUrl url)
+{
+    setSource(url);
+}

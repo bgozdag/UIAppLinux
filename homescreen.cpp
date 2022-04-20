@@ -70,5 +70,8 @@ void HomeScreen::onLanguageChanged()
 void HomeScreen::setupBrand(QString brand)
 {
     qDebug() << "HomeScreen:" << brand;
+    for (ChargerItem * chargerItem : chargerItems) {
+        chargerItem->setupBrand(brand);
+    }
 //    TODO brand
 }

@@ -135,3 +135,12 @@ void ChargerItem::onMeterValueReceived()
         setProgress(charger.getChargePercentage());
     }
 }
+
+void ChargerItem::setupBrand(QString brand)
+{
+    qDebug() << "ChargerItem:" << brand;
+    ui->progressBar->setIndeterminate(false);
+    ui->progressBar->setVisible(false);
+    ui->progressLabel->setVisible(false);
+//    TODO brand
+}

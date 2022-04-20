@@ -211,3 +211,12 @@ void Evc05ChargerItem::onMeterValueReceived()
         setProgress(charger.getChargePercentage());
     }
 }
+
+void Evc05ChargerItem::setupBrand(QString brand)
+{
+    qDebug() << "Evc05ChargerItem:" << brand;
+    ui->progressBar->setIndeterminate(false);
+    ui->progressBar->setVisible(false);
+    ui->progressLabel->setVisible(false);
+//    TODO brand
+}

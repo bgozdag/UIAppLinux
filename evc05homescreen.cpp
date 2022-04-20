@@ -103,6 +103,9 @@ void Evc05HomeScreen::onLanguageChanged()
 
 void Evc05HomeScreen::setupBrand(QString brand)
 {
-    qDebug() << "HomeScreen:" << brand;
+    qDebug() << "Evc05HomeScreen:" << brand;
+    for (Evc05ChargerItem * chargerItem : chargerItems) {
+        chargerItem->setupBrand(brand);
+    }
 //    TODO brand
 }

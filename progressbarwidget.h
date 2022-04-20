@@ -13,6 +13,7 @@ public:
     void setProgress(unsigned int);
     void setSize(int, int);
     void setGeometry(const QRect &);
+    void setSourceUrl(QUrl);
 
 signals:
     void progressSignal(int);

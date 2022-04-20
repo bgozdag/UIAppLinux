@@ -113,6 +113,7 @@ private:
     bool inUse = false;
     bool chargeProgressing = false;
     bool lidError = false;
+    QString brand = "";
     vector<UnavailableReason::UnavailableReason> unavailableReasons;
     FaultReason::FaultReason faultReason = FaultReason::FaultReason::NO_ERROR;
 
