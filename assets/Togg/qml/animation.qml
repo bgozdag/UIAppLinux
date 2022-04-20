@@ -7,6 +7,7 @@ Rectangle
 {
     width: 300
     height: 300
+    color: "transparent"
     Image {
         id: image
         x: 0

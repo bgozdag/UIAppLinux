@@ -5,7 +5,9 @@ ProgressBarWidget::ProgressBarWidget(QWidget *parent) : QQuickWidget(parent)
 {
     setSource(QUrl("qrc:/assets/qml/ProgressBar.qml"));
     setResizeMode(QQuickWidget::SizeViewToRootObject);
-    this->setAttribute(Qt::WA_TranslucentBackground); // Does not seem to work, background is still white.
+    this->setAttribute(Qt::WA_TranslucentBackground);
+    this->setClearColor(Qt::transparent);
+    this->setAttribute(Qt::WA_AlwaysStackOnTop);
     connect(this, SIGNAL(progressSignal(int)), rootObject(), SIGNAL(progressSignal(int)));
     connect(this, SIGNAL(setIndeterminateSignal(bool)), rootObject(), SIGNAL(setIndeterminateSignal(bool)));
     connect(this, SIGNAL(setSizeSignal(int, int)), rootObject(), SIGNAL(setSizeSignal(int, int)));
