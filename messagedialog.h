@@ -16,6 +16,7 @@ public:
     explicit MessageDialog(QWidget *parent = nullptr);
     ~MessageDialog();
     QGridLayout * getMessageDialogContainer();
+    void hideGridLayoutWidget();
     void setDeleteOnClose(bool isActive);
     void hideCloseButton();
     virtual void show();
