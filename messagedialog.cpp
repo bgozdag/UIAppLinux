@@ -29,6 +29,10 @@ QGridLayout * MessageDialog::getMessageDialogContainer(){
     return ui->messageDialogContainer;
 }
 
+void MessageDialog::hideGridLayoutWidget(){
+    ui->gridLayoutWidget->hide();
+}
+
 void MessageDialog::resize(int width, int height)
 {
     ui->messageDialogWidget->resize(width,height);

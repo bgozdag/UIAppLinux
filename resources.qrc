@@ -1056,5 +1056,7 @@
         <file>assets/Togg/qml/animation_src/Render247.png</file>
         <file>assets/Togg/qml/animation_src/Render248.png</file>
         <file>assets/Togg/qml/animation_src/Render249.png</file>
+        <file>assets/images/init_background.png</file>
+        <file>assets/Togg/images/init_background.png</file>
     </qresource>
 </RCC>
