@@ -25,6 +25,14 @@ InitializeMessageDialog::InitializeMessageDialog(QWidget *parent) :
     this->hideGridLayoutWidget();
 
     this->setStyleSheet("background-image: url(:/assets/images/init_background.png); background-position: center; background-origin: content;");
+    QQuickWidget *progressBar = new QQuickWidget(this);
+    progressBar->setAttribute(Qt::WA_TranslucentBackground);
+    progressBar->setClearColor(Qt::transparent);
+    progressBar->setAttribute(Qt::WA_AlwaysStackOnTop);
+    progressBar->setSource(QUrl("qrc:/assets/qml/CircularProgressBar.qml"));
+    progressBar->setGeometry(int((Dimensions::WINDOW_WIDTH-150)/2),int((Dimensions::WINDOW_HEIGHT-150)/2) + 230,150,150);
+    progressBar->show();
+    progressBar->raise();
 }
 
 InitializeMessageDialog::~InitializeMessageDialog()
