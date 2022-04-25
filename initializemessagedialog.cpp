@@ -25,6 +25,7 @@ InitializeMessageDialog::InitializeMessageDialog(QWidget *parent) :
     this->hideGridLayoutWidget();
 
     this->setStyleSheet("background-image: url(:/assets/images/init_background.png); background-position: center; background-origin: content;");
+
     QQuickWidget *progressBar = new QQuickWidget(this);
     progressBar->setAttribute(Qt::WA_TranslucentBackground);
     progressBar->setClearColor(Qt::transparent);
