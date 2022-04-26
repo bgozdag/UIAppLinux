@@ -80,12 +80,13 @@ void ChargingScreen::onLanguageChanged()
 void ChargingScreen::setupBrand(QString brand)
 {
     qDebug() << "ChargingScreen:" << brand;
-    ui->chargeProgressBar->setGeometry(QRect(50,50,300,300));
-    ui->chargeProgressBar->setSize(300, 300);
-    QString file = "qrc:/assets/"+ brand + "/qml/animation.qml";
-    qDebug() << file;
-    ui->chargeProgressBar->setSource(QUrl(file));
-//    TODO brand
+    if (QString::compare(brand, "Togg", Qt::CaseInsensitive) == 0)
+    {
+        ui->chargeProgressBar->setGeometry(QRect(50,50,300,300));
+        ui->chargeProgressBar->setSize(300, 300);
+        QString file = "qrc:/assets/"+ brand + "/qml/animation.qml";
+        ui->chargeProgressBar->setSource(QUrl(file));
+    }
 }
 
 void ChargingScreen::stopChargingButtonClicked()

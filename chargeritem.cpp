@@ -139,8 +139,10 @@ void ChargerItem::onMeterValueReceived()
 void ChargerItem::setupBrand(QString brand)
 {
     qDebug() << "ChargerItem:" << brand;
-    ui->progressBar->setIndeterminate(false);
-    ui->progressBar->setVisible(false);
-    ui->progressLabel->setVisible(false);
-//    TODO brand
+    if (QString::compare(brand, "Togg", Qt::CaseInsensitive) == 0)
+    {
+        ui->progressBar->setIndeterminate(false);
+        ui->progressBar->setVisible(false);
+        ui->progressLabel->setVisible(false);
+    }
 }

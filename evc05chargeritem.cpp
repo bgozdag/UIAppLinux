@@ -215,8 +215,10 @@ void Evc05ChargerItem::onMeterValueReceived()
 void Evc05ChargerItem::setupBrand(QString brand)
 {
     qDebug() << "Evc05ChargerItem:" << brand;
-    ui->progressBar->setIndeterminate(false);
-    ui->progressBar->setVisible(false);
-    ui->progressLabel->setVisible(false);
-//    TODO brand
+    if (QString::compare(brand, "Togg", Qt::CaseInsensitive) == 0)
+    {
+        ui->progressBar->setIndeterminate(false);
+        ui->progressBar->setVisible(false);
+        ui->progressLabel->setVisible(false);
+    }
 }
