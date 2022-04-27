@@ -10,7 +10,7 @@ Item {
     property color primaryColor: "#ffffff"
     property color secondaryColor: "#111111"
 
-    property int animationDuration: 120000  // 2 minutes
+    property int animationDuration: 60000  // 1 minutes
 
     width: size
     height: size
