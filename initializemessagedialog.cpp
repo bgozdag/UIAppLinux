@@ -24,8 +24,6 @@ InitializeMessageDialog::InitializeMessageDialog(QWidget *parent) :
     this->move(0,0);
     this->hideGridLayoutWidget();
 
-    this->setStyleSheet("background-image: url(:/assets/images/init_background.png); background-position: center; background-origin: content;");
-
     QQuickWidget *progressBar = new QQuickWidget(this);
     progressBar->setAttribute(Qt::WA_TranslucentBackground);
     progressBar->setClearColor(Qt::transparent);
@@ -34,6 +32,23 @@ InitializeMessageDialog::InitializeMessageDialog(QWidget *parent) :
     progressBar->setGeometry(int((Dimensions::WINDOW_WIDTH-150)/2),int((Dimensions::WINDOW_HEIGHT-150)/2) + 230,150,150);
     progressBar->show();
     progressBar->raise();
+
+    QString projectType = UIUtils::getProjectType();
+    qDebug() << "Project type:" << projectType << endl;
+    if (projectType == "EVC05")
+    {
+        this->setStyleSheet("background-image: url(:/assets/images/evc05_init_background.png); background-position: center; background-origin: content;");
+        progressBar->setGeometry(int((Dimensions::WINDOW_WIDTH-150)/2),int((Dimensions::WINDOW_HEIGHT-150)/2) + 270,150,150);
+    }
+    else
+    {
+        this->setStyleSheet("background-image: url(:/assets/images/evc03_init_background.png); background-position: center; background-origin: content;");
+        if (projectType == "EVC10")
+        {
+            progressBar->setGeometry(int((Dimensions::WINDOW_WIDTH-150)/2),int((Dimensions::WINDOW_HEIGHT-150)/2) + 210,150,150);
+        }
+    }
+
 }
 
 InitializeMessageDialog::~InitializeMessageDialog()

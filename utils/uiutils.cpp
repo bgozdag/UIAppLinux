@@ -105,3 +105,29 @@ void UIUtils::setTextWithLineSpace(QLabel* label, const std::string& text, doubl
 {
     label->setText("<p style=\"line-height:" + QString::number(lineSpacing) + "\">" + text.c_str() + "</p>");
 }
+
+QString UIUtils::getProjectType()
+{
+    std::ifstream file("/etc/os-release");
+    if (file.is_open())
+    {
+        std::string line;
+        while(std::getline(file,line))
+        {
+            if (line.find("RELEASE_VERSION") != std::string::npos){
+                size_t startIndex = line.find(".") + 1;
+                size_t endIndex = line.find(".", startIndex);
+                switch (atoi(line.substr(startIndex, endIndex-startIndex).c_str())) {
+                    case 0:
+                        return QString("EVC05");
+                    case 1:
+                        return QString("EVC03");
+                    case 2:
+                        return QString("EVC10");
+                }
+            }
+        }
+        file.close();
+    }
+    return QString("");
+}

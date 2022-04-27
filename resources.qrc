@@ -1056,8 +1056,11 @@
         <file>assets/Togg/qml/animation_src/Render247.png</file>
         <file>assets/Togg/qml/animation_src/Render248.png</file>
         <file>assets/Togg/qml/animation_src/Render249.png</file>
-        <file>assets/images/init_background.png</file>
-        <file>assets/Togg/images/init_background.png</file>
+        <file>assets/images/evc03_init_background.png</file>
+        <file>assets/Togg/images/evc03_init_background.png</file>
         <file>assets/qml/CircularProgressBar.qml</file>
+        <file>assets/images/evc05_init_background.png</file>
+        <file>assets/Togg/images/evc05_init_background.png</file>
+        <file>assets/Togg/qml/CircularProgressBar.qml</file>
     </qresource>
 </RCC>

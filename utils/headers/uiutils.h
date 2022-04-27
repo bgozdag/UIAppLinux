@@ -4,6 +4,7 @@
 #include <qwidget.h>
 #include <string>
 #include <qlabel.h>
+#include <fstream>
 
 class UIUtils {
 public:
@@ -20,6 +21,7 @@ public:
     static void paintQR(QPainter &painter, const QSize containerSize, const QSize sz, const QString &data, QColor fg);
     static void setTextElided(QLabel* label, const std::string& text);
     static void setTextWithLineSpace(QLabel* label, const std::string& text, double lineSpacing);
+    static QString getProjectType();
 
 private:
     static void forceWidgetToUseStyleSheet(QWidget * widget);
